@@ -48,7 +48,9 @@ public class PrintAllPaths {
         graph[9].add(new Edge(9, 8));
         graph[9].add(new Edge(9, 7));
 
-    }
+    } 
+
+    //Time-> O(v^v)
 
     public static void printAllpath(ArrayList<Edge> graph[], boolean visted[], int curr, String path, int tar) {
         // base case
